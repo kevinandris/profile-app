@@ -1,3 +1,4 @@
+// ! data for each profile
 export const profiles = [
     {
         img: "https://i.ibb.co/gvwfFJK/profile1.png",

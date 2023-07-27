@@ -1,3 +1,4 @@
+// ! child class
 import './App.module.css';
 import ProfileList from './components/profile/ProfileList';
 

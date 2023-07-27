@@ -1,6 +1,7 @@
+// ! child class
 import React from 'react'
 import styles from "./Profile.module.css"
-import profile1 from "../../assets/profile1.png"
+// import profile1 from "../../assets/profile1.png"
 import { AiOutlineTwitter, AiOutlineGithub, AiOutlineGooglePlus} from "react-icons/ai"
 import { IconContext } from 'react-icons'
 import Card from "../UI/card/Card"
@@ -25,6 +26,7 @@ const Profile = ({image, name, job, company, link}) => {
             <p>{company} </p>
           </div>
           
+          // ! IconContext.Provider helps us to avoid repetitive code
           <IconContext.Provider value={{ color: "#667", size: "20px"}}>
             <div className={styles.icons}>
               <AiOutlineTwitter  />
