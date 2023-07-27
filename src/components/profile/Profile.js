@@ -5,24 +5,24 @@ import { AiOutlineTwitter, AiOutlineGithub, AiOutlineGooglePlus} from "react-ico
 import { IconContext } from 'react-icons'
 import Card from "../UI/card/Card"
 
-const Profile = () => {
+const Profile = ({image, name, job, company, link}) => {
   return (
     <Card>
       <div className={styles.profile}>
-        <img src={profile1} alt="" />
+        <img src={image} alt="" />
         <div className={styles["profile-content"]}>
           <h3>My Profile</h3>
           <div className={styles.text}>
             <p>Name: </p>
-            <p>Adaora Nwodo </p>
+            <p>{name} </p>
           </div>
           <div className={styles.text}>
             <p>Job: </p>
-            <p>Cloud Engineer </p>
+            <p>{job} </p>
           </div>
           <div className={styles.text}>
             <p>Company: </p>
-            <p>Microsoft </p>
+            <p>{company} </p>
           </div>
           
           <IconContext.Provider value={{ color: "#667", size: "20px"}}>
@@ -34,7 +34,7 @@ const Profile = () => {
           </IconContext.Provider> 
 
             <div className={styles.btn}>
-              <a href="#" target="_blank" rel='noreferrer'>View Profile</a>
+              <a href={link} target="_blank" rel='noreferrer'>View Profile</a>
             </div>
         </div>
       </div>
