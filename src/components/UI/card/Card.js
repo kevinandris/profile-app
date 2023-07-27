@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from "./Card.module.css"
 
-const Card = () => {
+const Card = ({children}) => {
   return (
-    <div>
-        <h1>Card</h1>
+    <div className={styles.card}>
+      {children}
     </div>
   )
 }
