@@ -1,4 +1,4 @@
-// ! child class
+// ! CHILD class --> exported to index.js
 import './App.module.css';
 import ProfileList from './components/profile/ProfileList';
 

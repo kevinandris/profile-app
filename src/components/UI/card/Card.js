@@ -1,4 +1,4 @@
-// ! child class
+// ! CHILD class ---> exported to Profile.js
 import React from 'react'
 import styles from "./Card.module.css"
 

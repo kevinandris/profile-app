@@ -1,4 +1,4 @@
-// ! parent class
+// ! PARENT class of Profile.js --> exported to App.js
 import React from 'react'
 import styles from "./ProfileList.module.css"
 import Profile from './Profile'

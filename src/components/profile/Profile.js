@@ -1,4 +1,4 @@
-// ! child class
+// ! CHILD class ---> exported to ProfileList.js
 import React from 'react'
 import styles from "./Profile.module.css"
 // import profile1 from "../../assets/profile1.png"

@@ -1,4 +1,4 @@
-// ! parent class
+// ! PARENT class
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.module.css';
