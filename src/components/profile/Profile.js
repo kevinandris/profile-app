@@ -26,7 +26,7 @@ const Profile = ({image, name, job, company, link}) => {
             <p>{company} </p>
           </div>
           
-          // ! IconContext.Provider helps us to avoid repetitive code
+          {/* // ! IconContext.Provider helps us to avoid repetitive code */}
           <IconContext.Provider value={{ color: "#667", size: "20px"}}>
             <div className={styles.icons}>
               <AiOutlineTwitter  />
